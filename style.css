@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.form-container {
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #643c3c;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input[type="text"], input[type="number"], input[type="email"], select {
+    width: 100%;
+    background-color: #848484;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #848484;
+    color: #000;
+    font-size: 25px;
+    font-variant: small-caps;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 60%;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #848484;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #848484;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #848484;
+}
+
+td .delete-btn {
+    padding: 5px 10px;
+    color: #fff;
+    width:fit-content;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+td .delete-btn:hover {
+    background-color: #c82333;
+}
